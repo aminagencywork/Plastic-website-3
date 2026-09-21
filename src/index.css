@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Barlow Condensed', sans-serif;
+    --font-display: 'Barlow', sans-serif;
+    --font-body: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: #f8fafc;
+    color: #1e293b;
+  }
+
+  h1, h2, h3, .font-heading {
+    font-family: var(--font-heading);
+    letter-spacing: -0.02em;
+  }
+
+  .font-display {
+    font-family: var(--font-display);
+  }
+}
+
+/* Industrial button & styling utilities */
+.btn-gold {
+  background-color: #f59e0b;
+  color: #0f172a;
+  font-weight: 700;
+  transition: all 0.2s ease-in-out;
+}
+.btn-gold:hover {
+  background-color: #d97706;
+  color: #000000;
+}
+
+.btn-navy {
+  background-color: #0b1523;
+  color: #ffffff;
+  font-weight: 700;
+  transition: all 0.2s ease-in-out;
+}
+.btn-navy:hover {
+  background-color: #1e293b;
+}
+
+/* Hexagon / clip accent helpers */
+.clip-diagonal {
+  clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+}

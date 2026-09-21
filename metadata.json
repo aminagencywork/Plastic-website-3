@@ -1,0 +1,6 @@
+{
+  "name": "ApexPlast - Precision Plastic Manufacturing",
+  "description": "Professional B2B plastic manufacturing catalog and showcase website featuring high-grade industrial containers, storage crates, packaging, and custom injection molding capabilities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
